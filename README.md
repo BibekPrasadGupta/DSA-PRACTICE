@@ -1,4 +1,4 @@
-# 🧠 LeetCode Practice
+# 🧠 DSA PRACTICE
 
 ### 🚀 *Practicing Data Structures & Algorithms in Java through consistent problem-solving.*
 
