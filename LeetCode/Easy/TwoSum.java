@@ -2,35 +2,41 @@
 
 ## 🧩 Problem 1: Two Sum
 
-**Platform:** LeetCode  
-**Difficulty:** Easy  
-**Language:** Java  
+**Platform:** LeetCode
+**Difficulty:** Easy
+**Language:** Java ☕
 
 ---
 
 ## 📌 Problem Description
+
 Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
 
 Each input has **exactly one solution**, and the same element cannot be used twice.
 
 ---
 
-## 🧠 Approach
-- Use a **HashMap** to store previously visited numbers and their indices.
-- For each element, check whether `target - currentElement` exists in the map.
-- If found, return the indices immediately.
+## 🧠 Approach (Brute Force)
 
-This approach optimizes the solution by reducing time complexity.
+* Iterate through the array using two nested loops.
+* For each element at index `i`, check all subsequent elements at index `j`.
+* If the sum of `nums[i] + nums[j]` equals the target, store their indices and return the result.
+
+This approach checks **all possible pairs** to ensure correctness.
 
 ---
 
 ## ⏱️ Complexity Analysis
-- **Time Complexity:** `O(n)`
-- **Space Complexity:** `O(n)`
+
+* **Time Complexity:** `O(n²)`
+  (Due to nested loops checking every pair)
+* **Space Complexity:** `O(1)`
+  (Only a fixed-size array is used for the result)
 
 ---
 
 ## 📂 Code
+  
   class Solution {
     public int[] twoSum(int[] nums, int target) {
         int []ans = new int[2];
@@ -48,12 +54,14 @@ This approach optimizes the solution by reducing time complexity.
     }
 }
 
+
 ---
 
 ## ✅ Status
-✔ Solved  
-✔ Optimized solution using HashMap  
+
+✔ Solved using brute-force approach
+✔ Clear and beginner-friendly solution
 
 ---
 
-*This solution is part of my DSA practice using Java.*
+*This solution is part of my Data Structures & Algorithms (DSA) practice in Java.*
