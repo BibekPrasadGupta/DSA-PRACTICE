@@ -1,4 +1,4 @@
-# LeetCode Easy Problems – Java
+## LeetCode Easy Problems – Java
 
 ## 🧩 Problem 2894: Divisible and Non-Divisible Sums Difference
 
