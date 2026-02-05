@@ -1,9 +1,9 @@
-## LeetCode Easy Problems – Java
+## LeetCode Medium Problems – Java
 
 ## 🧩 Problem 167: Two Sum II – Input Array Is Sorted
 
 **Platform:** LeetCode
-**Difficulty:** Easy
+**Difficulty:** Medium
 **Language:** Java ☕
 
 ---
