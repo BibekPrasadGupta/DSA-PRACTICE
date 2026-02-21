@@ -1,6 +1,6 @@
 ##  LeetCode Easy Problems – Java
 
-## 🧩 LeetCode 1137: N-th Tribonacci Number
+## 🧩 Problem 1137: N-th Tribonacci Number
 
 ## 📌 Problem Description
 
