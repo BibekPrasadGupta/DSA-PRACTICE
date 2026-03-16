@@ -6,7 +6,6 @@
 **Difficulty:** Easy
 **Language:** Java ☕
 
----
 
 ## 📌 Problem Description
 
@@ -16,7 +15,6 @@ Find that single one.
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
----
 
 ## 🧠 Approach
 
