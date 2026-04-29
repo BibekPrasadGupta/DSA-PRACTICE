@@ -3,7 +3,7 @@
 **Platform:** LeetCode
 **Difficulty:** Easy
 **Language:** Java ☕
-
+    
 ---
 
 ## 📌 Problem Description
@@ -70,4 +70,4 @@ class Solution {
 
 ---
 
-*This solution is part of my Data Structures & Algorithms (DSA) practice in Java.*
+**This solution is part of my Data Structures & Algorithms (DSA) practice in Java.**
